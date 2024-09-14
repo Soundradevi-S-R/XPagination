@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+.wrapper{
+  align-items: center;
+  background-color: #faf7f7f9;
+}
+.header{
+font-size: 28px;
+font-style: normal;
+align-content: center;
+justify-content: center;
+height: 100px;
+}
+.employeeTableDiv{
+display: flex;
+justify-content: center;
+}
+table {
+  border: 1px solid rgb(140 140 140);
+  font:
+    12px "sans-serif",
+    Helvetica,
+    Arial  ;
+   
+  width:1200px;
+}
+
+thead > tr,
+tfoot > tr {
+background-color: rgb(12, 174, 136);
+font-weight: 100;
+color: #ffffff;
+height: 30px;
+border-bottom: gray;
+}
+
+th,
+td {
+border: 1px  rgb(160 160 160);
+width:200px;
+min-height: 20px;
+padding: 10px 0px 10px 10px;
+text-align: left;
+color:rgba(0, 0, 0, 0.666)
+}
+.button{
+  background-color:  rgb(12, 174, 136);
+  padding: 5px;
+  margin: 10px;
+  width:80px;
+  border-style:hidden;
+  border-radius: 5px;
+  color: #ffffff;  
+}
